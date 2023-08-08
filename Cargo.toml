@@ -1,0 +1,15 @@
+[package]
+name = "ez_fs"
+version = "0.1.0"
+edition = "2021"
+description = "A filesystem simplification over the standard library"
+readme = "readme.md"
+repository = "https://github.com/JamieH01/ez_fs"
+license = "MIT OR Apache-2.0"
+
+keywords = ["fs", "filesystem", "devtool", "directory"]
+categories = ["data-structures", "filesystem"]
+
+exclude = ["/foo.txt"]
+
+[dependencies]
